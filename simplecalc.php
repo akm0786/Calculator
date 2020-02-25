@@ -10,7 +10,7 @@
 
 margin:0;
 padding: 0;
-font-family: cursive;
+font-family: sans-serif;
 font-weight: bold;
 }
 body{
@@ -62,7 +62,7 @@ input {
   margin: 8px 0;
   box-sizing: border-box;
   background-color:black;
-  
+  outline: none;
    border:1px solid black;
  border-radius:6px;
  
@@ -75,6 +75,7 @@ input {
 input[type=submit] {
   width: 33%;
   border:0px solid green;
+  outline: none;
   color:white;
  font-size:18px;
 margin:10px 37px;
@@ -83,10 +84,12 @@ background-color:black;
   border-radius:19px;
   letter-spacing: 1px;
  transition:0.5s;
+  cursor: pointer;
   box-sizing: border-box;
 }
 input[type="submit"]:hover,input[type="text"]:hover{
 background-color:#43ba2b;
+ outline: none;
 color:black;
 }
 form select
