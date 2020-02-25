@@ -160,25 +160,25 @@ background: #43ba2b;
 								
 								$result=$num1+$num2;
 
-								echo "ADDITION OF TWO NUMBER IS: $result";
+								echo "ADDITION OF TWO NUMBER IS : $result";
 								break;
 							case 'sub':
 								
 								$result=$num1-$num2;
 
-								echo "SUBTRACTION OF TWO NUMBER IS: $result";
+								echo "SUBTRACTION OF TWO NUMBER IS : $result";
 								break;
 							case 'multi':
 								
 								$result=$num1*$num2;
 
-								echo "MULTIPLY OF TWO NUMBER IS: $result";
+								echo "MULTIPLY OF TWO NUMBER IS : $result";
 								break;
 							case 'div':
 								
 								$result=$num1/$num2;
 
-								echo "DIVISION OF TWO NUMBER IS: $result";
+								echo "DIVISION OF TWO NUMBER IS : $result";
 								break;
 							
 							default:
